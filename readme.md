@@ -1,11 +1,7 @@
 # Angular and Nodejs Task Manager App
 A project illustrating creation of a full-stack MEAN application (Mongo Express Angular Nodejs) task
-manager application.
-
-SPA using Vuejs on the frontend and Laravel 
-framework on the backend. The application has authentication functionality whereby a user
-can register and login and perform CRUD funcionality on existing users. Data from the backend
-is exposed via a RESTFUL API.
+manager application. The application has authentication functionality whereby a user
+can register and login and perform CRUD funcionality on all tasks. We use JWT (Json Web Token) for token generation
 
 # Technologies used
 * Angular 8 on the frontend <br/>
@@ -14,6 +10,7 @@ is exposed via a RESTFUL API.
 * Nodejs Runtime Environment <br/>
 * MongoDB NonRelational Database <br/>
 * Mongoose ODM (Object Document Model) <br/>
+* JWT library for securing sending of data<br/>
 
 
 # Installation
