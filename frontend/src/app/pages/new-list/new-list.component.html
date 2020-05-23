@@ -1,0 +1,21 @@
+<div class="centered-content">
+  <div class="modal-box">
+    <h1 class="title">
+      Create a new list
+    </h1>
+
+    <input #listTitleInput class="input has-background-light is-medium" type="text" placeholder="Enter list name...">
+    <br><br>
+    <div class="buttons is-right">
+
+      <!--Returns back to homepage after being clicked-->
+      <button class="button is-medium" routerLink="/">Cancel</button>
+
+      <!--When have onclick event which when clicked we capture value of input field. This is done using template variable and reachng out to
+      its value onClick-->
+      <button class="button is-primary has-text-white is-medium" (click)="createList(listTitleInput.value)">Create</button>
+    </div>
+
+    
+  </div>
+</div>
