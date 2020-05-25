@@ -16,7 +16,7 @@ can register and login and perform CRUD funcionality on all tasks. We use JWT (J
 # Installation
 * Clone the project.  **git clone project-name**  <br/>
 * Get into frontend directory and follow readme file **cd frontend/** <br/>
-* Get into backend directory and follow readme file **cd backend/** <br/>
+* Get into backend directory and follow readme file **cd api/** <br/>
 
 ## License
 This program is free software published under the terms of the GNU [Lesser General Public License](http://www.gnu.org/copyleft/lesser.html). <br/>
